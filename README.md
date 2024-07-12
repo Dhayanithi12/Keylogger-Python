@@ -30,12 +30,13 @@ Copy code
 python keylogger.py
 The keylogger will start running in the background. Press Ctrl+C to stop it.
 
-Retrieve logs:
+## Retrieve logs:
 
 Logs are stored in windows.txt in the same directory where the script is executed.
 
-Notes
-Persistence: The script attempts to set persistence by adding a registry entry under HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run. This allows the keylogger to start automatically on system startup.
+## Notes
+
+## Persistence: The script attempts to set persistence by adding a registry entry under HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run. This allows the keylogger to start automatically on system startup.
 
 Security: This script is for educational purposes only. Ensure you have appropriate permissions before running it on any system.
 
